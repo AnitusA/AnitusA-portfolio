@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #030202;
+}
+header {
+    background-color: #225777;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+h2 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 24px;
+}
+h3 {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.container {
+    width: 100%;
+    margin: 0 ;
+    color: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3B82F6 ;
+}
+p{
+    margin: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.projects {
+    display: flex;
+    gap: 10px;
+}
+.project1 {
+    width : 50%;
+    background-color: #25d0ff;
+    color: #150932;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.project2 {
+    width : 50%;
+    background-color: #28d0ff;
+    color: #150932;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+footer{
+    background-color: #296991;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px ;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.abc{
+    background-color: #0F172A;
+    color: #3B82F6;
+    padding: 20px;
+    width: 100%;
+}
+.skill-container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+  }
+
+  .circle1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#00ff1e 0% 30%, #0091ff 30% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .circle1::after {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: #150932;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .circle1 span {
+    position: absolute;
+    z-index: 2;
+  }
+  #ajr{
+    text-align: center;
+    color:#00bcd4;
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #150932;
+  }
+  .circle2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#00ff04 0% 23%, #0091ff 23% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #faf9f9;
+    padding: 20px;
+  }
+  .circle2::after {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: #150932;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .circle2 span {
+    position: absolute;
+    z-index: 2;
+  }
+  #skill{
+    padding: 20px;
+    background-color: #150932;
+    color: #4f90fa;
+  }
+  .message{
+    font-family: sans-serif;
+    background: #1e0da4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .contact-form {
+    background: #150932;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(9, 165, 255, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 5px solid #0af3ff;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+  }
+
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: #00bcd4;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background: #0097a7;
+  }
+  #summa{
+    color: #5db0fe;
+    font-family: sans-serif;
+    font-size: 20px;
+
+  }
+  .circle3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#00ff04 0% 10%, #0091ff 10% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #faf9f9;
+    padding: 20px;
+  }
+  .circle3::after {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: #150932;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .circle3 span {
+    position: absolute;
+    z-index: 2;
+  }
